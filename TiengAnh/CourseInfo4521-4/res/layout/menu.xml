@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/ustblue"
+    >
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1">
+    
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/CourseCode"
+    android:gravity="center_vertical|center_horizontal"
+    android:textColor="@color/ustblue"
+    android:background="@android:color/white"
+    android:textSize="6pt"
+    android:textStyle="bold"/>
+    
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/CourseTitle"
+    android:gravity="center_vertical|center_horizontal"
+    android:background="@android:color/white"
+    android:textColor="@color/ustblue"
+    android:textSize="6pt"
+    android:textStyle="bold"/>
+
+   <ListView
+   android:id="@+id/ListView_menu"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:gravity="center_vertical|center_horizontal"
+   >
+   </ListView>
+   
+</LinearLayout>
+   
+   <ImageView
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical|center_horizontal"
+    android:src="@drawable/cse_logo"
+    android:maxHeight="10px"
+    android:background="@android:color/white"
+    />
+</LinearLayout>

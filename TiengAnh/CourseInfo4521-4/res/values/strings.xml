@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Course Info COMP 4521</string>
+    <string name="Welcome">Welcome to</string>
+    
+<string name="CourseCode">COMP 4521</string>
+<string name="CourseTitle">Embedded Systems Software</string>
+<string name="Semester">Spring 2012</string>
+<string name="menu">Main Menu Screen</string>
+<string name="clickprompt">Please click to continue ...</string>
+<string name="instructor">Instructor</string>
+<string name="tas">Teaching Assistant(s)</string>
+<string name="lecture">Lectures</string>
+<string name="lab">Lab Sessions</string>
+    <string-array name="menu_items">
+        <item>Contact Information</item>
+        <item>Time Table</item>
+        <item>Course Information</item>
+        <item>Syllabus</item>
+        <item>Lectures</item>
+        <item>Labs</item>
+        <item>Exams</item>
+        <item>Project</item>
+        <item>Links</item>
+    </string-array>
+</resources>

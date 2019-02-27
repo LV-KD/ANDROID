@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/ustblue"
+    android:id="@+id/WelcomeScreen"
+    >
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1">
+    
+    <ImageView
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical|center_horizontal"
+    android:src="@drawable/ustlogo"
+    android:maxHeight="10px"
+    android:background="@android:color/white"
+    />
+    
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/Welcome"
+    android:gravity="center_vertical|center_horizontal"
+    android:textColor="@android:color/white"
+    android:textSize="12pt"
+    />
+    
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/CourseCode"
+    android:gravity="center_vertical|center_horizontal"
+    android:textColor="@color/ustgold"
+    android:textSize="18pt"
+    />
+    
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/CourseTitle"
+    android:gravity="center_vertical|center_horizontal"
+    android:textColor="@color/ustgold"
+    android:textSize="14pt"
+    />
+    
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/Semester"
+    android:gravity="center_vertical|center_horizontal"
+    android:textColor="#aaaaaa"
+    android:textSize="16pt"
+    />
+    
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/clickprompt"
+    android:gravity="center_vertical|center_horizontal"
+    android:textColor="#aaaaaa"
+    android:textSize="8pt"
+    />            
+</LinearLayout>
+   
+   <ImageView
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical|center_horizontal"
+    android:src="@drawable/cse_logo"
+    android:maxHeight="10px"
+    android:background="@android:color/white"
+    />
+</LinearLayout>

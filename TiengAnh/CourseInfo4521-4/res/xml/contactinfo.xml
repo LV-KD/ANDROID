@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contact>
+<instructor
+   name="Jogesh K. Muppala"
+   office="Rm. 3510"
+   tel="2358 6978"
+   email="muppala@cse.ust.hk"
+   web="http://www.cse.ust.hk/~muppala/">
+</instructor>
+<assistant
+   name="Liu Yang"
+   office="Rm. 4205"
+   tel="2358 6978"
+   email="liuyangcse@cse.ust.hk">
+</assistant>
+<assistant
+   name="Liu Yang"
+   office="Rm. 4205"
+   tel="2358 6978"
+   email="liuyangcse@cse.ust.hk">
+</assistant>
+</contact>
